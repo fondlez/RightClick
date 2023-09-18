@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: RightClick
+## Author: vortigern11
+## Notes: Disables right click to attack enemy players
+## Version: GIT
+
+RightClick.lua
