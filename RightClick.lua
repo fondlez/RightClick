@@ -10,8 +10,13 @@ tt:SetScript("OnEvent", function()
 end)
 
 WorldFrame:SetScript("OnMouseUp", function()
-    if tt.isPlayer and tt.isEnemyFaction then
-        TargetByName(tt.name)
-        MouselookStop()
+    if arg1 == "RightButton" then
+        local isNewTarget = UnitName("target") ~= tt.name
+        local isEnemyPlayer = tt.isPlayer and tt.isEnemyFaction
+
+        if isNewTarget or isEnemyPlayer then
+            MouselookStop()
+            return
+        end
     end
 end)
