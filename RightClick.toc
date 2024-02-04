@@ -1,7 +1,7 @@
-## Interface: 11200
+## Interface: 50400
 ## Title: RightClick
-## Author: vortigern11
+## Author: vortigern11, fondlez
 ## Notes: Disables right click to attack enemy players
-## Version: GIT
+## Version: 1.0-fondlez
 
 RightClick.lua
