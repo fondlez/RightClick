@@ -2,6 +2,6 @@
 ## Title: RightClick
 ## Author: vortigern11, fondlez
 ## Notes: Disables right click to attack enemy players
-## Version: 1.0-fondlez
+## Version: 1.0.0-fondlez
 
 RightClick.lua
